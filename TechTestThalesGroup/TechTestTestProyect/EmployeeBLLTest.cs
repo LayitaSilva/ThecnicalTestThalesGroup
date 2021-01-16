@@ -41,5 +41,15 @@ namespace TechTestTestProyect
             result = await bll.GetInformationEmployees(idEmployee);
             Assert.IsTrue(result.data.Count > 0);
         }
+
+        [TestMethod]
+        public async void TestEmployeeSalary() 
+        {
+            EmployeeLogicBusiness bll = new EmployeeLogicBusiness();
+            EmployeesDataModel result = new EmployeesDataModel();
+            int idEmployee = 1;
+            result = await bll.GetInformationEmployees(idEmployee);
+            Assert.AreEqual(result.data[0].employee_anual_salary, result.data[0].employee_salary * 12);
+        }
     }
 }
