@@ -1,0 +1,13 @@
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\bin\Debug\BLL.dll
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\bin\Debug\BLL.pdb
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\bin\Debug\DAL.dll
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\bin\Debug\DAL.pdb
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\bin\Debug\DAL.dll.config
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\obj\Debug\BLL.dll
+C:\Users\silvalam\Source\repos\ThecnicalTestThalesGroup\TechTestThalesGroup\BLL\obj\Debug\BLL.pdb
