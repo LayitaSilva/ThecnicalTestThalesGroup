@@ -1,0 +1,49 @@
+﻿
+@model IEnumerable<DAL.Models.EmployeeModel>
+@{
+    ViewBag.Title = "Employee Info";
+}
+
+<h2>Employee</h2>
+
+<p>
+    @using (Html.BeginForm("GetEmployee", "Employee"))
+    {
+        <label for="IdEmployee">Employee Id :</label>
+        <input id="IdEmployeeText" type="text" name="IdEmployeeText" />
+        <input id="Button1" type="submit" value="Get Employee" />
+    }
+</p>
+
+<p>
+    <div>
+        @if (Model != null)
+        {
+            <table>
+                <tr>
+                    <td> <label for="IdEmployee">Employee Id     </label></td>
+                    <td>  <label for="employee_name">|  Employee Name    </label></td>
+                    <td>  <label for="employee_salary">| Employee Salary     </label></td>
+                    <td>  <label for="employee_salary">| Employee Anual Salary     </label></td>
+                    <td>  <label for="employee_age">| Employee age    </label></td>
+                    <td>  <label for="profile_image">| Employee profile image   </label></td>
+                </tr>
+            </table>
+            @foreach (var employee in Model)
+            {
+                <table>
+                    <tr>
+                        <td> <label for="IdEmployee">@employee.id</label></td>
+                        <td>  <label for="employee_name">| @employee.employee_name</label></td>
+                        <td>  <label for="employee_salary">| @employee.employee_salary</label></td>
+                        <td>  <label for="employee_salary">| @employee.employee_anual_salary</label></td>
+                        <td>  <label for="employee_age">| @employee.employee_age</label></td>
+                        <td>  <label for="profile_image">| @employee.profile_image</label></td>
+                    </tr>
+                </table>
+            }
+        }
+
+    </div>
+
+</p>

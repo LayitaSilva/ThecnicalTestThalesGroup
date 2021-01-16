@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\BLL\\BLL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\BLL\\BLL.csproj",
+        "projectName": "BLL",
+        "projectPath": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\BLL\\BLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\DAL\\DAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\DAL\\DAL.csproj",
+        "projectName": "DAL",
+        "projectPath": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\DAL\\DAL.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup.csproj",
+        "projectName": "TechTestThalesGroup",
+        "projectPath": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup.csproj",
+        "packagesPath": "C:\\Users\\silvalam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\silvalam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\BLL\\BLL.csproj": {
+                "projectPath": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\BLL\\BLL.csproj"
+              },
+              "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\DAL\\DAL.csproj": {
+                "projectPath": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\DAL\\DAL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "SomYH+QcHDW6nVQSdwIHv4u7F3mHl3c7Sl//k5ZeI/7CE3pg02CM6giJVtvT5XH5ygSGjjdpSyYhHxG46SLZpQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\silvalam\\Source\\repos\\ThecnicalTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup\\TechTestThalesGroup.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\silvalam\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
